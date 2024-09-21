@@ -18,3 +18,14 @@ def list_users():
            'email': 'lopezarizaleo@gmail.com' 
         }
     ]
+
+@app.get("/products")
+def list_products():
+    return [
+        {
+           'name': 'Pan de Sal',
+        },
+        {
+           'name': 'Arina',
+        }
+    ]
