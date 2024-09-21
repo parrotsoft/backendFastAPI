@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"nombre": "Miguel Lopez"}
+    return {"nombre": "Miguel Lopez", "edad": 36}
 
 @app.get("/users")
 def list_users():
